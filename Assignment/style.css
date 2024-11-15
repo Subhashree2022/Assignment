@@ -1,0 +1,184 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #003366;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #FFD700; /* Gold accent */
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 80vh;
+    background-image: url('https://via.placeholder.com/1200x800'); /* Replace with luxury home image */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.cta-btn {
+    background-color: #FFD700; /* Gold accent */
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #003366;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #e6a700;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.service-item {
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.testimonials blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonials p {
+    font-size: 1.2rem;
+}
+
+/* Quote Form Section */
+.quote-form {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.quote-form h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.quote-form form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+}
+
+.quote-form form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.quote-form form button:hover {
+    background-color: #FFD700; /* Gold accent */
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: #FFD700; /* Gold accent */
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    color: #FFD700; /* Gold accent */
+}
